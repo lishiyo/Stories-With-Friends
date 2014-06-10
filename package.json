@@ -21,7 +21,6 @@
     "nodemailer": "0.x",
     "underscore": "1.x",
     "sqlite3": "2.x",
-    "crypto": "0.x",
     "socket.io": "0.x",
     "util": "0.x",
     "express-minify": "0.x"
