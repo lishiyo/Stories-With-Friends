@@ -30,7 +30,6 @@ var app = express();
 app.enable('trust proxy'); //for nginix etc..
 
 var qs = require('querystring');
-var zerorpc = require("zerorpc");
 
 app.use(express.compress());
 var minify = require('express-minify');

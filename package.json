@@ -1,7 +1,7 @@
 {
-  "name": "sunyc",
-  "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
+  "name": "stories-with-friends",
+  "version": "0.2.0",
+  "description": "Stories with Friends - Learn vocabulary by writing stories.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,18 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmeyerov/sunyc.git"
+    "url": "https://github.com/empirical-org/Stories-With-Friends"
   },
-  "author": "",
+  "author": "Leo Meyerovich, Peter Gault",
   "license": "BSD",
   "dependencies": {
     "express": "3.x",
     "request": "2.x",
-    "zmq": "2.x",
-    "zerorpc": "0.x",
-    "nodemailer": "0.x",
-    "underscore": "1.x",
-    "sqlite3": "2.x",
     "socket.io": "0.x",
     "util": "0.x",
     "express-minify": "0.x"

@@ -13,14 +13,6 @@ Installation
 
    http://brew.sh/
 
-   Install zeromq if you don't have it:
-
-   ~~~ sh
-   brew install zmq
-   # or
-   sudo apt-get install libzmq-dev
-   ~~~
-
 1. __Install npm and node__
 
    Install node: http://nodejs.org/
