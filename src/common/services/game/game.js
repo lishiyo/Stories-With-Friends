@@ -28,6 +28,13 @@ angular.module("sf.services.game", [
       });
       game.wordsUsed = game.$child("wordsUsed");
       game.wordsUsedLength = game.$child("wordsUsedLength");
+			
+			// show the number of words used, not the firebase object
+			game.wordsUsed.$on('loaded', function(data) {
+				game.wordsUsedNum = Object.keys(data).length;
+				console.log("wordsUsedNum: " + JSON.stringify(data));
+			});
+																								 
       return game;
     };
 
